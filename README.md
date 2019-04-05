@@ -1,9 +1,7 @@
 # calculateSQRT
 
 the effective way to calculate
-$$
-\sqrt{x^2 + y^2}
-$$
+$\sqrt{x^2 + y^2}$
 don't worry can't calculate large integer. 
 
 can't be overflow
@@ -16,9 +14,9 @@ can't be overflow
 
 1. calculate the ``maximum`` and ``minimum`` value of two number.
 
-2. let R = $\frac{min}{max}​$ .
+2. let R = $\frac{min}{max}$ .
 
-3. then `return `  $max \sqrt{1+R^2}​$ .
+3. then `return `  $max \sqrt{1+R^2}$ .
 
    
 
